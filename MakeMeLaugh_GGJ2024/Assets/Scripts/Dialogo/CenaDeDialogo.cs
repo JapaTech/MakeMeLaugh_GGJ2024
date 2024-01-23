@@ -13,7 +13,7 @@ namespace Dialogo
     public class Conversa
     {
         [field: TextArea(3, 20)]
-        public string message;
+        public string messagem;
         public Personagem_SO personagem;
         public Humor humor;
     }

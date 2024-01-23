@@ -8,7 +8,7 @@ namespace Dialogo
         public string id;
         public string nome;
         public Sprite[] retrato;
-        public Humor humor;
+        
     }
 
     public enum Humor

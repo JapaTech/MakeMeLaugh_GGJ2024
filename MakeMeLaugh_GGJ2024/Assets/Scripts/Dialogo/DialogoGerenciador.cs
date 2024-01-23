@@ -50,8 +50,8 @@ public class DialogoGerenciador : MonoBehaviour
         Conversa conversaMostrada = conversaAtual[mensagemAtiva];
         texto.text = conversaAtual[mensagemAtiva].messagem;
 
-        nome.text = conversaAtual[mensagemAtiva].personagem.nome;
-        iconeAtor.sprite = conversaAtual[mensagemAtiva].personagem.retrato[(int)conversaAtual[mensagemAtiva].humor];
+        nome.text = conversaAtual[mensagemAtiva].personagem.Nome;
+        iconeAtor.sprite = conversaAtual[mensagemAtiva].personagem.Retrato[(int)conversaAtual[mensagemAtiva].humor];
     }
 
     public void TrocarSentenca()

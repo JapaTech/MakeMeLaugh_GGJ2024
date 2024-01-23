@@ -16,27 +16,18 @@ public class DialogoGerenciador : MonoBehaviour
     private Conversa[] conversaAtual;
     private int mensagemAtiva = 0;
 
-    public bool estaTendoDialogo = false;
+    public bool EstaTendoDialogo { get; private set; } = false;
 
     private void Awake()
-    {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            Instance = this;
-        }
-
-        DontDestroyOnLoad(gameObject);
+    {  
+         Instance = this;   
     }
 
     public void ComecaDialogo(Conversa[] conversas)
     {
         conversaAtual = conversas;
 
-        estaTendoDialogo = true;
+        EstaTendoDialogo = true;
 
         canvas.gameObject.SetActive(true);
 
@@ -70,7 +61,7 @@ public class DialogoGerenciador : MonoBehaviour
     private void FinalizarDialogo()
     {
         canvas.gameObject.SetActive(false);
-        estaTendoDialogo = false;
+        EstaTendoDialogo = false;
         Debug.Log("Dialogo acabou");
     }
 }

@@ -12,7 +12,9 @@ public class NivelGerenciador : MonoBehaviour
 {
     public static NivelGerenciador Instance;
 
-    private Canvas loadCanvas;
+    [SerializeField] private float duracaoFadeIn;
+    [SerializeField] private float duracaoFadeOut;
+    [SerializeField] private float tempoEspera;
 
     private void Awake()
     {
@@ -27,31 +29,33 @@ public class NivelGerenciador : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
 
+        /*
         loadCanvas = GetComponentInChildren<Canvas>();
         loadCanvas.gameObject.SetActive(false);
+        */
     }
 
     public void CarregaCena(NomeCenas sceneName)
     {
-        StartCoroutine(EsperaCenaCarregar(sceneName.ToString()));   
+        StartCoroutine(EsperaCenaCarregar(sceneName.ToString(), duracaoFadeIn, tempoEspera, duracaoFadeOut));   
     }
 
-    private IEnumerator EsperaCenaCarregar(string sceneName)
+    private IEnumerator EsperaCenaCarregar(string sceneName, float duracaoFadeIn, float tempoEspera, float duracaoFadeOut)
     {
-        loadCanvas.sortingOrder = 10;
+        yield return Fade.Instance.ExecutaFade(duracaoFadeIn, Color.clear, Color.black, true);
+       ;
+        yield return new WaitWhile(() => Fade.EstaTransicionando);
+
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
 
-        loadCanvas.gameObject.SetActive(true);
+        yield return new WaitWhile(() => !asyncLoad.isDone);
 
-        yield return new WaitForSeconds(3f);
 
-        while (!asyncLoad.isDone)
-        {
-            yield return null;
-        }
+        yield return new WaitForSeconds(tempoEspera);
 
-        loadCanvas.gameObject.SetActive(false);
-        loadCanvas.sortingOrder = -1;
+        yield return Fade.Instance.ExecutaFade(duracaoFadeOut, Color.black, Color.clear, false);
+        
+
     }
 
 }

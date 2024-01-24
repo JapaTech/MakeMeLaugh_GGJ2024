@@ -6,7 +6,7 @@ using Cartas;
 using Dialogo;
 using System;
 
-public class GameGerenciador : MonoBehaviour
+public class FaseGerenciador : MonoBehaviour
 {
     [SerializeField] private CenaDeDialogo dialogoInicial;
 
@@ -22,6 +22,11 @@ public class GameGerenciador : MonoBehaviour
     private void OnEnable()
     {
         Carta.AoClicarNaCarta += DisparaConsequencia;
+    }
+
+    private void OnDisable()
+    {
+        Carta.AoClicarNaCarta -= DisparaConsequencia;
     }
 
     private void Start()
@@ -71,7 +76,7 @@ public class GameGerenciador : MonoBehaviour
             case TipoCarta.Neutra:
                 DialogoGerenciador.Instance.ComecaDialogo(resultados[1].cenaDeDialogo.cena);
                 break;
-            case TipoCarta.Ruim:
+            case TipoCarta.Caotica:
                 DialogoGerenciador.Instance.ComecaDialogo(resultados[2].cenaDeDialogo.cena);
                 break;
             default:
@@ -88,7 +93,7 @@ public class GameGerenciador : MonoBehaviour
             case TipoCarta.Neutra:
                 imagemDeFundo.sprite = resultados[1].imagemFeedback;
                 break;
-            case TipoCarta.Ruim:
+            case TipoCarta.Caotica:
                 imagemDeFundo.sprite = resultados[2].imagemFeedback;
                 break;
             default:

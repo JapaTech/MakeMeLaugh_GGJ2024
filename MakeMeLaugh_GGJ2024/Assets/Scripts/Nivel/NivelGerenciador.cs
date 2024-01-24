@@ -14,8 +14,6 @@ public class NivelGerenciador : MonoBehaviour
 
     private Canvas loadCanvas;
 
-   
-
     private void Awake()
     {
         if(Instance != null && Instance != this)

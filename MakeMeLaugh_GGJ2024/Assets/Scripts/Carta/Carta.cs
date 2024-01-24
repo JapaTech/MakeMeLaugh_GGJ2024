@@ -10,7 +10,7 @@ namespace Cartas
     {
         Boa,
         Neutra,
-        Ruim
+        Caotica
     }
 
     [RequireComponent(typeof(Button))]

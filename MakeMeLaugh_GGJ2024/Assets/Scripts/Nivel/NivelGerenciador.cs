@@ -4,8 +4,11 @@ using UnityEngine.SceneManagement;
 
 public enum NomeCenas
 {
-    TestDialogueScene,
-    TestGameScene
+    Fase_1,
+    Fase_2,
+    Fase_3,
+    Fase_4,
+    Fase_5,
 }
 
 public class NivelGerenciador : MonoBehaviour

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef5289004fdfe5d4c81a7b9188622150, type: 3}
   m_Name: Carta2
   m_EditorClassIdentifier: 
-  Titulo: Carta Neutra
+  Titulo: Carta Caotica
   IconeImg: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   BgImg: {fileID: 21300000, guid: f03a3ada7021ea341a843f3cca21faaa, type: 3}

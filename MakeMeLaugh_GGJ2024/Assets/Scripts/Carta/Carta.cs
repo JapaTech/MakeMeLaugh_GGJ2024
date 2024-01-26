@@ -9,7 +9,7 @@ namespace Cartas
     public enum TipoCarta
     {
         Boa,
-        Neutra,
+        Ruim,
         Caotica
     }
 

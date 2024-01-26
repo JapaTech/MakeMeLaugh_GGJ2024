@@ -42,7 +42,7 @@ public class FinaisGerenciador : MonoBehaviour
             case TipoCarta.Boa:
                 escolhaBoa++;
                 break;
-            case TipoCarta.Neutra:
+            case TipoCarta.Ruim:
                 escolhaNeutra++;
                 break;
             case TipoCarta.Caotica:
@@ -56,10 +56,11 @@ public class FinaisGerenciador : MonoBehaviour
 
     public void VerificaSeECenaFinal(string nomeCena)
     {
-        if (nomeCena == NomeCenas.TestGameScene.ToString())
+        /*if (nomeCena == NomeCenas.TestGameScene.ToString())
         {
             EstaNaCenaFinal = true;
         }
+        */
     }
 
     private void VaiParaCenaFinal()

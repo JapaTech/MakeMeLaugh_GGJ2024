@@ -14,9 +14,9 @@ public class FaseGerenciador : MonoBehaviour
 
     [SerializeField] private GameObject cartas;
 
-    bool teste;
+    [SerializeField] private TrocaNivel avancaNivel;
 
-    [Header("Coloque os resultados na seguite ordem, de cima para baixo: Bom, Neutro, Ruim")]
+    [Header("Coloque os resultados na seguite\nordem de cima para baixo:\nBom, Caotico, Ruim")]
     [SerializeField] private Resultado_SO[] resultados;
 
     private void OnEnable()
@@ -32,6 +32,7 @@ public class FaseGerenciador : MonoBehaviour
     private void Start()
     {
         cartas.SetActive(false);
+        avancaNivel.gameObject.SetActive(false);
         DialogoGerenciador.Instance.ComecaDialogo(dialogoInicial.cena);
         StartCoroutine(MostraCarta());
     }
@@ -44,23 +45,7 @@ public class FaseGerenciador : MonoBehaviour
 
     private void DisparaConsequencia(TipoCarta cartaEscolhida)
     {
-        /*
-        switch (cartaEscolhida)
-        {
-            case TipoCarta.Boa:
-                imagemDeFundo.sprite = resultados[0].imagemFeedback;
-                break;
-            case TipoCarta.Neutra:
-                imagemDeFundo.sprite = resultados[1].imagemFeedback;
-                break;
-            case TipoCarta.Ruim:
-                imagemDeFundo.sprite = resultados[2].imagemFeedback;
-                break;
-            default:
-                Debug.Log("Carta Inválida");
-                break;
-        }
-        */
+        
         StartCoroutine(MostraResultado(cartaEscolhida));
     }
 
@@ -73,7 +58,7 @@ public class FaseGerenciador : MonoBehaviour
             case TipoCarta.Boa:
                 DialogoGerenciador.Instance.ComecaDialogo(resultados[0].cenaDeDialogo.cena);
                 break;
-            case TipoCarta.Neutra:
+            case TipoCarta.Ruim:
                 DialogoGerenciador.Instance.ComecaDialogo(resultados[1].cenaDeDialogo.cena);
                 break;
             case TipoCarta.Caotica:
@@ -83,14 +68,13 @@ public class FaseGerenciador : MonoBehaviour
                 Debug.Log("Carta Inválida");
                 break;
         }
-        yield return new WaitUntil(() => DialogoGerenciador.Instance.EstaTendoDialogo == false);
 
         switch (cartaEscolhida)
         {
             case TipoCarta.Boa:
                 imagemDeFundo.sprite = resultados[0].imagemFeedback;
                 break;
-            case TipoCarta.Neutra:
+            case TipoCarta.Ruim:
                 imagemDeFundo.sprite = resultados[1].imagemFeedback;
                 break;
             case TipoCarta.Caotica:
@@ -100,5 +84,10 @@ public class FaseGerenciador : MonoBehaviour
                 Debug.Log("Carta Inválida");
                 break;
         }
+
+        yield return new WaitUntil(() => DialogoGerenciador.Instance.EstaTendoDialogo == false);
+        yield return new WaitForSeconds(1f);
+
+        avancaNivel.gameObject.SetActive(true);
     }
 }

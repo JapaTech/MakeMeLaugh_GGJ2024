@@ -537,18 +537,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8186187363686012453, guid: 2b5dab484d8afb34b96b831b3ed2d167, type: 3}
-      propertyPath: tempoEspera
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8186187363686012453, guid: 2b5dab484d8afb34b96b831b3ed2d167, type: 3}
-      propertyPath: duracaoFadeIn
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 8186187363686012453, guid: 2b5dab484d8afb34b96b831b3ed2d167, type: 3}
-      propertyPath: duracaoFadeOut
-      value: 0.75
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

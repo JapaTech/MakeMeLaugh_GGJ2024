@@ -523,7 +523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8186187363686012453, guid: 2b5dab484d8afb34b96b831b3ed2d167, type: 3}
       propertyPath: tempoEspera
-      value: 0.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8186187363686012453, guid: 2b5dab484d8afb34b96b831b3ed2d167, type: 3}
       propertyPath: duracaoFadeIn

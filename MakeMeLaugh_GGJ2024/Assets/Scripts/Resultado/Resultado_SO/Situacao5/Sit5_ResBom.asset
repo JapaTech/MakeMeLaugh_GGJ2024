@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e71a7a6fa8ea49247904bf3e4ccd8f9f, type: 3}
-  m_Name: GatoFeliz
+  m_Name: Sit5_ResBom
   m_EditorClassIdentifier: 
-  cenaDeDialogo: {fileID: 11400000, guid: 3da34a83747cb8f418fe3e150e03d6df, type: 2}
+  cenaDeDialogo: {fileID: 11400000, guid: c22fb69bb7a32c749b51a8f87b8022ae, type: 2}
   imagemFeedback: {fileID: 21300000, guid: f7c797d46b2f99b40aac62b9a479b39b, type: 3}

@@ -2,16 +2,23 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Cartas;
 
+public enum Finais
+{
+    Bom,
+    Ruim,
+    Caotico
+}
+
 public class FinaisGerenciador : MonoBehaviour
 {
     public static FinaisGerenciador Instance;
 
-    private int escolhaBoa = 0;
-    private int escolhaNeutra = 0;
-    private int escolhaCaotica = 0;
+    public static int escolhaBoa = 0;
+    public static int escolhaRuim = 0;
+    public static int escolhaCaotica = 0;
 
-    private bool EstaNaCenaFinal = false;
-
+    private static NomeCenas penultimaCena = NomeCenas.Fase_5;
+    private static TipoCarta tipo;
 
     private void Awake()
     {
@@ -25,17 +32,9 @@ public class FinaisGerenciador : MonoBehaviour
         }
         DontDestroyOnLoad(gameObject);
     }
-    private void OnEnable()
-    {
-        Carta.AoClicarNaCarta += RecebeEscolha;
-    }
+    
 
-    private void OnDisable()
-    {
-        Carta.AoClicarNaCarta -= RecebeEscolha;
-    }
-
-    private void RecebeEscolha(TipoCarta tipoCarta)
+    public static void RecebeEscolha(TipoCarta tipoCarta)
     {
         switch (tipoCarta)
         {
@@ -43,7 +42,7 @@ public class FinaisGerenciador : MonoBehaviour
                 escolhaBoa++;
                 break;
             case TipoCarta.Ruim:
-                escolhaNeutra++;
+                escolhaRuim++;
                 break;
             case TipoCarta.Caotica:
                 escolhaCaotica++;
@@ -52,33 +51,52 @@ public class FinaisGerenciador : MonoBehaviour
                 Debug.Log("Escolha inválida");
                 break;
         }
-    }
+        Debug.Log("Subiu");
 
-    public void VerificaSeECenaFinal(string nomeCena)
-    {
-        /*if (nomeCena == NomeCenas.TestGameScene.ToString())
+        if (SceneManager.GetActiveScene().name == penultimaCena.ToString())
         {
-            EstaNaCenaFinal = true;
+            tipo = tipoCarta;
         }
-        */
     }
 
-    private void VaiParaCenaFinal()
+ 
+    public static Finais VaiParaCenaFinal()
     {
-        if(escolhaBoa > escolhaNeutra && escolhaBoa > escolhaCaotica)
+        if(escolhaBoa > escolhaRuim && escolhaBoa > escolhaCaotica)
         {
             //Codigo para trocar a cena para o final bom
-            Debug.Log("Final bom");
+            return Finais.Bom;
         }
-        else if (escolhaNeutra > escolhaBoa && escolhaNeutra > escolhaCaotica)
+        else if (escolhaRuim > escolhaBoa && escolhaRuim > escolhaCaotica)
         {
             //Codigo para trocar a cena para o final neutro
-            Debug.Log("Final neutro");
+            return Finais.Ruim;
         }
-        else if (escolhaCaotica > escolhaBoa && escolhaCaotica > escolhaNeutra)
+        else if (escolhaCaotica > escolhaBoa && escolhaCaotica > escolhaRuim)
         {
             //Codigo para trocar a cena para o final caotico
-            Debug.Log("Final caótico");
+            return Finais.Caotico;
+        }
+        else if (tipo == TipoCarta.Boa)
+        {
+            Debug.Log("Final Bom");
+            return Finais.Bom;
+        }
+        else if (tipo == TipoCarta.Ruim)
+        {
+            Debug.Log("Final Ruim");
+            return Finais.Ruim;
+        }
+        else if (tipo == TipoCarta.Caotica)
+        {
+            Debug.Log("Final Caotico");
+            return Finais.Caotico;
+        }
+        else
+        {
+            Debug.Log("Algo deu muito errado");
+            return Finais.Bom;
         }
     }
+
 }

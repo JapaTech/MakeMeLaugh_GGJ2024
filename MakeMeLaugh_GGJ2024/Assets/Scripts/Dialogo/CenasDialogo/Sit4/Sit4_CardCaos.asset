@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef5289004fdfe5d4c81a7b9188622150, type: 3}
-  m_Name: Carta2
+  m_Script: {fileID: 11500000, guid: 13903f9545b62a549aa2986386df6f6f, type: 3}
+  m_Name: Sit4_CardCaos
   m_EditorClassIdentifier: 
-  Titulo: Carta Caotica
-  IconeImg: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  BgImg: {fileID: 21300000, guid: f03a3ada7021ea341a843f3cca21faaa, type: 3}
+  cena:
+  - messagem: Escolheu Carta Caotica 4
+    personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0

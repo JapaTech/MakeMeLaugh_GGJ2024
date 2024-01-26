@@ -9,6 +9,7 @@ public enum NomeCenas
     Fase_3,
     Fase_4,
     Fase_5,
+    Final
 }
 
 public class NivelGerenciador : MonoBehaviour
@@ -51,10 +52,10 @@ public class NivelGerenciador : MonoBehaviour
 
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
 
-        yield return new WaitForSeconds(tempoEspera);
 
         yield return new WaitWhile(() => !asyncLoad.isDone);
 
+        yield return new WaitForSeconds(tempoEspera);
 
 
         yield return Fade.Instance.ExecutaFade(duracaoFadeOut, Color.black, Color.clear, false);

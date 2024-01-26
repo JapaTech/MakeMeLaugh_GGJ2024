@@ -336,9 +336,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 588230032992518547, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
+      propertyPath: dialogoInicial
+      value: 
+      objectReference: {fileID: 11400000, guid: f901ed69bdfc36241a087047147e0dcc, type: 2}
+    - target: {fileID: 588230032992518547, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
+      propertyPath: resultados.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: a60202c2f017ed7499e66480e73085f2, type: 2}
+    - target: {fileID: 588230032992518547, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
+      propertyPath: resultados.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: c9751446867aae941ba4159ff564ed7a, type: 2}
     - target: {fileID: 3494113797478119868, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
       propertyPath: m_Name
       value: GerenciadorFase
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988262579596243682, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
+      propertyPath: tipoCarta
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6988262579596243682, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
       propertyPath: cartaDados
@@ -527,11 +543,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8186187363686012453, guid: 2b5dab484d8afb34b96b831b3ed2d167, type: 3}
       propertyPath: duracaoFadeIn
-      value: 1
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 8186187363686012453, guid: 2b5dab484d8afb34b96b831b3ed2d167, type: 3}
       propertyPath: duracaoFadeOut
-      value: 1
+      value: 0.75
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

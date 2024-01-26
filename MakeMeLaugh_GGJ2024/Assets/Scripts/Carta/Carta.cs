@@ -41,6 +41,7 @@ namespace Cartas
         public void ClicouNaCarta()
         {
             AoClicarNaCarta?.Invoke(tipoCarta);
+            FinaisGerenciador.RecebeEscolha(tipoCarta);
         }
     }
 

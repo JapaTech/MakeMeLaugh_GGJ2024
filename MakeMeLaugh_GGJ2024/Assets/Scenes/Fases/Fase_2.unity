@@ -336,9 +336,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 588230032992518547, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
+      propertyPath: dialogoInicial
+      value: 
+      objectReference: {fileID: 11400000, guid: 24f36f05e9cbec44e87dc65a8a76d337, type: 2}
+    - target: {fileID: 588230032992518547, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
+      propertyPath: resultados.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: d185153084817704699b32f41254d826, type: 2}
+    - target: {fileID: 588230032992518547, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
+      propertyPath: resultados.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 23fe620f519c9a04b8e90b14a18daf40, type: 2}
+    - target: {fileID: 588230032992518547, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
+      propertyPath: resultados.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 000ef3f016d7f5c4f91d193466ee9801, type: 2}
     - target: {fileID: 3494113797478119868, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
       propertyPath: m_Name
       value: GerenciadorFase
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328737983857414787, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
+      propertyPath: nomeCena
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6988262579596243682, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
       propertyPath: cartaDados

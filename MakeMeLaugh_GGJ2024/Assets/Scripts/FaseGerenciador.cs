@@ -16,7 +16,7 @@ public class FaseGerenciador : MonoBehaviour
 
     [SerializeField] private TrocaNivel avancaNivel;
 
-    [Header("Coloque os resultados na seguite\nordem de cima para baixo:\nBom, Caotico, Ruim")]
+    [Header("Coloque os resultados na seguite\nordem de cima para baixo:\nBom, Ruim, Caotico")]
     [SerializeField] private Resultado_SO[] resultados;
 
     private void OnEnable()

@@ -211,6 +211,10 @@ PrefabInstance:
       propertyPath: resultados.Array.data[2]
       value: 
       objectReference: {fileID: 11400000, guid: c9751446867aae941ba4159ff564ed7a, type: 2}
+    - target: {fileID: 2807100256167149520, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3494113797478119868, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
       propertyPath: m_Name
       value: GerenciadorFase
@@ -556,10 +560,6 @@ PrefabInstance:
     - target: {fileID: 370559337883326892, guid: 4788530232dd6ea4d827ea25e2dddcd6, type: 3}
       propertyPath: m_Name
       value: GerenciadoDialogos
-      objectReference: {fileID: 0}
-    - target: {fileID: 370559337883326892, guid: 4788530232dd6ea4d827ea25e2dddcd6, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8398934497310660361, guid: 4788530232dd6ea4d827ea25e2dddcd6, type: 3}
       propertyPath: m_Pivot.x

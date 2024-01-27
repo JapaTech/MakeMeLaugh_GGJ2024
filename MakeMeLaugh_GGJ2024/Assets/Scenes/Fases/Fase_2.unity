@@ -274,7 +274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2299328742449573231, guid: c41c1d6dea51db6499c9d7ea4d7a287c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4744766001082534069, guid: c41c1d6dea51db6499c9d7ea4d7a287c, type: 3}
       propertyPath: m_Pivot.x
@@ -375,7 +375,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2585818899947796350, guid: 61cd60669a0b191438ed20dd7e6ded19, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8393880566751046357, guid: 61cd60669a0b191438ed20dd7e6ded19, type: 3}
       propertyPath: m_Pivot.x
@@ -560,7 +560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3494113797478119868, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5328737983857414787, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
       propertyPath: nomeCena

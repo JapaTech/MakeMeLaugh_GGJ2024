@@ -221,16 +221,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6293183428017846714, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
       propertyPath: tipoCarta
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6988262579596243682, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
       propertyPath: tipoCarta
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6988262579596243682, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
       propertyPath: cartaDados
       value: 
       objectReference: {fileID: 11400000, guid: cc4f76175700cf64abdd5083f5e59b9c, type: 2}
+    - target: {fileID: 8422610869658498996, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0557c6715c1b88240a27d6275014d51b, type: 3}
     - target: {fileID: 8492554231861794600, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
       propertyPath: m_Pivot.x
       value: 0

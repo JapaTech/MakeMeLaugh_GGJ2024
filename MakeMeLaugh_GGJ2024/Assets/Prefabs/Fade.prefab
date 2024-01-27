@@ -117,7 +117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duracaoFadeIn: 0.75
   duracaoFadeOut: 0.75
-  tempoEspera: 2
+  tempoEspera: 1
 --- !u!114 &6823734791436532752
 MonoBehaviour:
   m_ObjectHideFlags: 0

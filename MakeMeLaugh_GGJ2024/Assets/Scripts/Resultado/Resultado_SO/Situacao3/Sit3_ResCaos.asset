@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Sit3_ResCaos
   m_EditorClassIdentifier: 
   cenaDeDialogo: {fileID: 11400000, guid: ca69c8a52a0aafc43a3fd9fd491d66bc, type: 2}
-  imagemFeedback: {fileID: 21300000, guid: 0ca4aae098113954693dbf1b8ddfbd94, type: 3}
+  imagemFeedback: {fileID: -1547671416, guid: 36626d152c581614c878007b48d427e7, type: 3}

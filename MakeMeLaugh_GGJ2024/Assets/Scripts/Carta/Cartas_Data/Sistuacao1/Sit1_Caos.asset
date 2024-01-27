@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Titulo: Carta Caotica
   IconeImg: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  BgImg: {fileID: 21300000, guid: f03a3ada7021ea341a843f3cca21faaa, type: 3}
+  DesenoImg: {fileID: 21300000, guid: 0332df5eff649c9429d217aa70d01193, type: 3}

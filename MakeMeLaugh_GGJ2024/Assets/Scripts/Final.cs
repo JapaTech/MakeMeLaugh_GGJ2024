@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 using Dialogo;
 
 public class Final : MonoBehaviour
@@ -12,6 +13,8 @@ public class Final : MonoBehaviour
 
     private void Start()
     {
+        avancaNivel.gameObject.SetActive(false);
+
         Finais fim = FinaisGerenciador.VaiParaCenaFinal();
 
         switch (fim)
@@ -31,5 +34,16 @@ public class Final : MonoBehaviour
             default:
                 break;
         }
+
+        StartCoroutine(EsperaFinal());
+    }
+
+
+    private IEnumerator EsperaFinal()
+    {
+        yield return new WaitUntil(() => DialogoGerenciador.Instance.EstaTendoDialogo == false);
+        yield return new WaitForSeconds(1f);
+
+        avancaNivel.gameObject.SetActive(true);
     }
 }

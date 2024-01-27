@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Titulo: Carta Boa
   IconeImg: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  BgImg: {fileID: 21300000, guid: 686787f46426e4a428890daa2e470da3, type: 3}
+  DesenoImg: {fileID: 21300000, guid: 92c37da7e878c5d41b47932eeeb366d1, type: 3}

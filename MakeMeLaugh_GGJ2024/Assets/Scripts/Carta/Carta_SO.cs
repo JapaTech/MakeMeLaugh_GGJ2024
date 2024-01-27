@@ -7,7 +7,7 @@ namespace Cartas
     {
         public string Titulo;
         public Sprite IconeImg;
-        public Sprite BgImg;
+        public Sprite DesenoImg;
     }
 }
 

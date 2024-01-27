@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using DG.Tweening;
 using Dialogo;
 
 public class DialogoGerenciador : MonoBehaviour
@@ -17,6 +18,10 @@ public class DialogoGerenciador : MonoBehaviour
     private int mensagemAtiva = 0;
 
     public bool EstaTendoDialogo { get; private set; } = false;
+
+    [SerializeField] private float velocidadeDeDigitacao = 15f;
+
+    private Tween digitaTexto;
 
     private void Awake()
     {  
@@ -39,10 +44,18 @@ public class DialogoGerenciador : MonoBehaviour
     private void MostrarProximaConversa()
     {
         Conversa conversaMostrada = conversaAtual[mensagemAtiva];
-        texto.text = conversaAtual[mensagemAtiva].messagem;
+
+        string mensagem = "";
 
         nome.text = conversaAtual[mensagemAtiva].personagem.Nome;
         iconeAtor.sprite = conversaAtual[mensagemAtiva].personagem.Retrato[(int)conversaAtual[mensagemAtiva].humor];
+
+        digitaTexto = DOTween.To(() => mensagem, x => mensagem = x, conversaAtual[mensagemAtiva].messagem,
+            conversaAtual[mensagemAtiva].messagem.Length / velocidadeDeDigitacao).OnUpdate(() =>
+            {
+                texto.text = mensagem; //conversaAtual[mensagemAtiva].messagem;
+
+            });
     }
 
     public void TrocarSentenca()

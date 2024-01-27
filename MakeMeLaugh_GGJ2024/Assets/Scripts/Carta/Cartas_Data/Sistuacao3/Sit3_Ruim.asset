@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Titulo: Carta Ruim
   IconeImg: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  BgImg: {fileID: 21300000, guid: 4caf2ea2b7d901741a6d08549e05789b, type: 3}
+  DesenoImg: {fileID: 21300000, guid: 5458d930acd338044bd7ff485e870402, type: 3}

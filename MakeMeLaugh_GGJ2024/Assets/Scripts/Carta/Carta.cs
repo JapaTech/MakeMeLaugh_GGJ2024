@@ -33,7 +33,7 @@ namespace Cartas
             corpo = GetComponent<Button>();
             titulo = GetComponentInChildren<TMP_Text>();
 
-            imagemCarta.sprite = cartaDados.BgImg;
+            imagemCarta.sprite = cartaDados.DesenoImg;
             titulo.text = cartaDados.Titulo;
             icone.sprite = cartaDados.IconeImg;
         }

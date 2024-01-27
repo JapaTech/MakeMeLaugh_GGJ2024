@@ -4,12 +4,14 @@ using UnityEngine.SceneManagement;
 
 public enum NomeCenas
 {
+    MenuInicial,
     Fase_1,
     Fase_2,
     Fase_3,
     Fase_4,
     Fase_5,
-    Final
+    Final,
+    Creditos
 }
 
 public class NivelGerenciador : MonoBehaviour

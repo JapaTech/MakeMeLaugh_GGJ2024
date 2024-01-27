@@ -99,4 +99,11 @@ public class FinaisGerenciador : MonoBehaviour
         }
     }
 
+    public static void ResetaValores()
+    {
+        escolhaBoa = 0;
+        escolhaRuim = 0;
+        escolhaCaotica = 0;
+    }
+
 }

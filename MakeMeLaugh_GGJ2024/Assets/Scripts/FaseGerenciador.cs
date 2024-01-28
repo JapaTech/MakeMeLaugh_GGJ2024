@@ -1,5 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 using Cartas;
@@ -34,6 +34,14 @@ public class FaseGerenciador : MonoBehaviour
         cartas.SetActive(false);
         avancaNivel.gameObject.SetActive(false);
         DialogoGerenciador.Instance.ComecaDialogo(dialogoInicial.cena);
+
+        if (SceneManager.GetActiveScene().name == NomeCenas.Fase_1.ToString())
+        {
+            FMODAudioGerenciador.Instance.LimparEventos();
+            FMODAudioGerenciador.Instance.PararMusicas();
+            FMODAudioGerenciador.Instance.IniciarMusicaIntro(FMODEventsData.Instance.MusicaGameplay);
+        }
+
         StartCoroutine(MostraCarta());
     }
 

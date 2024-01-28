@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{bec092aa-caf5-4ddf-bc00-de23b47f3995}">
+		<property name="assetPath">
+			<value>Trilha Sonora/GGJ_TrilhaSonora_Creditos.ogg.meta</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{88cfcb49-5c8c-41bf-8472-6b2e885f8452}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -9,6 +9,10 @@ public class FMODAudioGerenciador : MonoBehaviour
 
     private List<EventInstance> eventosDeInstancaia = new List<EventInstance>();
 
+    private EventInstance musicaIntro;
+    private EventInstance musicaGameplay;
+    private EventInstance musicaCreditos;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -23,6 +27,31 @@ public class FMODAudioGerenciador : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+    public void IniciarMusicaGameplay(EventReference _musicaGameplay)
+    {
+        musicaGameplay = CriarInstanciaDeEvento(_musicaGameplay);
+        musicaGameplay.start();
+    }
+
+    public void IniciarMusicaIntro(EventReference _musicaIntro)
+    {
+        musicaIntro = CriarInstanciaDeEvento(_musicaIntro);
+        musicaIntro.start();
+    }
+
+    public void IniciarMusicaCreditos(EventReference _musicaCreditos)
+    {
+        musicaCreditos = CriarInstanciaDeEvento(_musicaCreditos);
+        musicaCreditos.start();
+    }
+
+    public void PararMusicas()
+    {
+        musicaGameplay.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        musicaIntro.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        musicaCreditos.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    }
+
 
     //Tocar evento sonoro 2D
     public void PlayOneShot(EventReference eventoSonoro)
@@ -35,6 +64,7 @@ public class FMODAudioGerenciador : MonoBehaviour
     {
         RuntimeManager.PlayOneShot(eventoSonoro, posicao);
     }
+
 
     public EventInstance CriarInstanciaDeEvento(EventReference e)
     {

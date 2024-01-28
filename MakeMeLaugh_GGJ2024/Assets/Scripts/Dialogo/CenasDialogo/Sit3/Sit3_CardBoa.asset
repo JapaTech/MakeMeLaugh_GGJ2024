@@ -13,6 +13,29 @@ MonoBehaviour:
   m_Name: Sit3_CardBoa
   m_EditorClassIdentifier: 
   cena:
-  - messagem: Escolheu Carta Boa 3
+  - messagem: "Caros, voc\xEAs sabem por que o passarinho n\xE3o faz mal aos outros?"
     personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0
+  - messagem: Por que ele tem pena.
+    personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0
+  - messagem: ...
+    personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0
+  - messagem: "O passarinho, tocado no cora\xE7\xE3o pela piada, diz ao bobo que
+      ele est\xE1 certo e pede perd\xE3o."
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "O passarinho, tocado no cora\xE7\xE3o pela piada, diz ao bobo..."
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "Pe\xE7o perd\xE3o, voc\xEA tem raz\xE3o."
+    personagem: {fileID: 0}
+    humor: 0
+  - messagem: "E com uma simples piada, o bobo, transformou um dos p\xE1ssaros ladr\xF5es
+      em um p\xE1ssaro do bem."
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "Assim, o bobo, retornou ao pal\xE1cio com o queijo para seu rei."
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
     humor: 0

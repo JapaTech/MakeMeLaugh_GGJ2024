@@ -13,6 +13,31 @@ MonoBehaviour:
   m_Name: FinalRuim
   m_EditorClassIdentifier: 
   cena:
-  - messagem: "Final Ruim. Voc\xEA foi um p\xE9ssimo bobo"
-    personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+  - messagem: "De volta no pal\xE1cio, no presente..."
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: Obrigado por me contar sobre as suas melhores aventuras no meu reino.
+    personagem: {fileID: 11400000, guid: af54b9473bb30634589607fdaef83646, type: 2}
+    humor: 0
+  - messagem: "Bobo, suas hist\xF3rias s\xE3o fascinantes. Voc\xEA \xE9 um bobo \xFAnico
+      mesmo."
+    personagem: {fileID: 11400000, guid: af54b9473bb30634589607fdaef83646, type: 2}
+    humor: 0
+  - messagem: Por isso, hoje, eu tenho o prazer de te fazer virar...
+    personagem: {fileID: 11400000, guid: af54b9473bb30634589607fdaef83646, type: 2}
+    humor: 0
+  - messagem: "UM P\xC1SSARO EXILADO \r"
+    personagem: {fileID: 11400000, guid: af54b9473bb30634589607fdaef83646, type: 2}
+    humor: 0
+  - messagem: "Do nada, o rei, lan\xE7ou um feiti\xE7o de vingan\xE7a sobre o bobo,
+      transformando-o em uma ave.\r\n"
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "Exilado para o reino dos latic\xEDnios, e sem dinheiro, ele n\xE3o
+      teve outra op\xE7\xE3o a n\xE3o ser se juntar \xE0 gangue de p\xE1ssaros e
+      levar uma vida do crime.\r\n\r"
+    personagem: {fileID: 11400000, guid: af54b9473bb30634589607fdaef83646, type: 2}
+    humor: 0
+  - messagem: "E assim foi a sua queda de status- de bobo da corte para p\xE1ssaro."
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
     humor: 0

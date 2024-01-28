@@ -13,6 +13,40 @@ MonoBehaviour:
   m_Name: Sit3_CardCaos
   m_EditorClassIdentifier: 
   cena:
-  - messagem: Escolheu Carta Caotica 3
+  - messagem: "Ave Maria\u2026"
     personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0
+  - messagem: "Maria? A ave Maria \xE9 minha mulher. O que voc\xEA quer com ela seu
+      bobo?\r\n"
+    personagem: {fileID: 0}
+    humor: 0
+  - messagem: "Nada n\xE3o. Eu s\xF3 queria saber se voc\xEAs sabem qual \xE9 o rei
+      dos queijos?"
+    personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0
+  - messagem: ...
+    personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0
+  - messagem: "O REIqueij\xE3o."
+    personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0
+  - messagem: "N\xE3o.\r"
+    personagem: {fileID: 0}
+    humor: 0
+  - messagem: "Eu j\xE1 comi o queijo. Logo, eu que sou o rei agora!\r"
+    personagem: {fileID: 0}
+    humor: 0
+  - messagem: "O que o p\xE1ssaro n\xE3o conseguiu perceber logo o suficiente foi
+      que ele era incapaz de digerir queijo."
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: ...
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "Com a morte de seu amigo, os p\xE1ssaros ficaram t\xE3o tristes que
+      se esqueceram at\xE9 mesmo do queijo. "
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "O bobo, por\xE9m, aproveitou a oportunidade para recuperar o que sobrava."
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
     humor: 0

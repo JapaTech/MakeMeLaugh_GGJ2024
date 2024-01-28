@@ -13,6 +13,37 @@ MonoBehaviour:
   m_Name: FinalBom
   m_EditorClassIdentifier: 
   cena:
-  - messagem: "Final bom. Voc\xEA foi um bobo bom"
-    personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+  - messagem: "De volta no pal\xE1cio, no presente..."
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: Obrigado por me contar sobre as suas melhores aventuras no meu reino.
+    personagem: {fileID: 11400000, guid: af54b9473bb30634589607fdaef83646, type: 2}
+    humor: 0
+  - messagem: "Bobo, suas hist\xF3rias s\xE3o fascinantes. Voc\xEA \xE9 um bobo \xFAnico
+      mesmo."
+    personagem: {fileID: 11400000, guid: af54b9473bb30634589607fdaef83646, type: 2}
+    humor: 0
+  - messagem: "Por isso, hoje, eu tenho a honra de lhe conceder\u2026"
+    personagem: {fileID: 11400000, guid: af54b9473bb30634589607fdaef83646, type: 2}
+    humor: 0
+  - messagem: "o t\xEDtulo de...\r"
+    personagem: {fileID: 11400000, guid: af54b9473bb30634589607fdaef83646, type: 2}
+    humor: 0
+  - messagem: O BOBO MAIS BOBO DO CONTINENTE
+    personagem: {fileID: 11400000, guid: af54b9473bb30634589607fdaef83646, type: 2}
+    humor: 0
+  - messagem: "O bobo, orgulhoso de seu novo t\xEDtulo, esperava ser reconhecido
+      por seus feitos. "
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "No entanto, sua vida continuou a mesma. \r\n"
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: Ele ainda seguia o Rei Pepino, submisso, como bobo da corte.
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: 'E assim, suas aventuras continuaram.
+
+'
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
     humor: 0

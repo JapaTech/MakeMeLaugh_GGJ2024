@@ -13,6 +13,20 @@ MonoBehaviour:
   m_Name: Sit3_CardRuim
   m_EditorClassIdentifier: 
   cena:
-  - messagem: Escolheu Carta Ruim 3
+  - messagem: "Senhores, voc\xEAs sabem como fazer um passarinho dar risada?"
     personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0
+  - messagem: "\xC9 s\xF3 jogar ele na parede\u2026"
+    personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0
+  - messagem: "\u2026 que ele racha o bico."
+    personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0
+  - messagem: "Os p\xE1ssaros, apavorados com a viol\xEAncia do estranho, voaram
+      para longe."
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "Para a sorte do bobo, com tanto alvoro\xE7o, os p\xE1ssaros acabaram
+      deixando o queijo para tr\xE1s."
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
     humor: 0

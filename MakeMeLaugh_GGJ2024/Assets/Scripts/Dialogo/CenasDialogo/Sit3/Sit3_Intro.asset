@@ -22,7 +22,7 @@ MonoBehaviour:
     personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
     humor: 0
   - messagem: "O bobo da corte encontrou pistas que o levaram at\xE9 uma floresta
-      pr\xF3xima onde um grupo de p\xE1ssaros estavam carregando o queijo do rei.\r\r\r"
+      pr\xF3xima onde um grupo de p\xE1ssaros estavam com o queijo do rei.\r\r\r"
     personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
     humor: 0
   - messagem: "O bobo da corte ent\xE3o teve uma ideia\u2026\r\r\r\r"

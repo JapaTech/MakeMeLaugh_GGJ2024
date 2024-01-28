@@ -6,6 +6,7 @@ public class TrocaNivel : MonoBehaviour
 
     public void VaiParaNovaCena()
     {
+        FMODAudioGerenciador.Instance.LimparEventos();
         NivelGerenciador.Instance.CarregaCena(nomeCena);
     }
 }

@@ -1042,8 +1042,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <AudioParaTocar>k__BackingField:
     Guid:
-      Data1: -1265874557
-      Data2: 1149705219
-      Data3: -1477339974
-      Data4: 304671707
-    Path: event:/SFXMenu/AvancarDialogo
+      Data1: -1074859149
+      Data2: 1280167644
+      Data3: -1928702053
+      Data4: 478474928
+    Path: event:/SFXMenu/BotaoClick

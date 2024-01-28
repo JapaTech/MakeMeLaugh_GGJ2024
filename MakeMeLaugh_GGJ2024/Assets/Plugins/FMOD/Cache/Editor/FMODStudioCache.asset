@@ -1,5 +1,25 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8930633706335488023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../FmodAudio/MakeMeLaugh_GGJ2024/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638420425998105943
+  FileSizes:
+  - Name: Desktop
+    Value: 963328
+  Exists: 1
 --- !u!114 &-8878735210713576967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,10 +62,10 @@ MonoBehaviour:
   Path: ../FmodAudio/MakeMeLaugh_GGJ2024/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638420031684518379
+  lastModified: 638420411390447120
   FileSizes:
   - Name: Desktop
-    Value: 1132
+    Value: 1272
   Exists: 1
 --- !u!114 &-7491933322244889998
 MonoBehaviour:
@@ -74,33 +94,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-7398546927496574647
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/New Event
-  m_EditorClassIdentifier: 
-  Path: event:/New Event
-  Guid:
-    Data1: 1200914659
-    Data2: 1312439539
-    Data3: -398084202
-    Data4: -887023593
-  Banks:
-  - {fileID: 807345240076708720}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2000
 --- !u!114 &-6709290487508383795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,6 +121,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-4564187740999310162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MusicaGameplay
+  m_EditorClassIdentifier: 
+  Path: event:/MusicaGameplay
+  Guid:
+    Data1: 1391491743
+    Data2: 1096974740
+    Data3: 683554708
+    Data4: -445676685
+  Banks:
+  - {fileID: -8930633706335488023}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 33333
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,20 +164,23 @@ MonoBehaviour:
   - {fileID: -8364156614233463061}
   - {fileID: 4408447484526523385}
   - {fileID: 807345240076708720}
+  - {fileID: -8930633706335488023}
   EditorEvents:
-  - {fileID: -7398546927496574647}
   - {fileID: -6709290487508383795}
   - {fileID: -7491933322244889998}
   - {fileID: -8878735210713576967}
   - {fileID: 7042530135987880000}
   - {fileID: 3508563594358354838}
   - {fileID: 3228672023767922428}
+  - {fileID: 1568122683945189957}
+  - {fileID: 7420806705258834220}
+  - {fileID: -4564187740999310162}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4408447484526523385}
   StringsBanks:
   - {fileID: -8364156614233463061}
-  cacheTime: 638420031692759088
+  cacheTime: 638420425998105943
   cacheVersion: 131616
 --- !u!114 &807345240076708720
 MonoBehaviour:
@@ -174,11 +197,38 @@ MonoBehaviour:
   Path: ../FmodAudio/MakeMeLaugh_GGJ2024/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638420031692759088
+  lastModified: 638420424031086625
   FileSizes:
   - Name: Desktop
-    Value: 420512
+    Value: 117248
   Exists: 1
+--- !u!114 &1568122683945189957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MusicaCreditos
+  m_EditorClassIdentifier: 
+  Path: event:/MusicaCreditos
+  Guid:
+    Data1: 1497426505
+    Data2: 1284453710
+    Data3: 721223334
+    Data4: -1417021996
+  Banks:
+  - {fileID: -8930633706335488023}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13333
 --- !u!114 &3228672023767922428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,7 +298,7 @@ MonoBehaviour:
   Path: ../FmodAudio/MakeMeLaugh_GGJ2024/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638420031684459803
+  lastModified: 638420411390398446
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -280,3 +330,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &7420806705258834220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MusicaIntro
+  m_EditorClassIdentifier: 
+  Path: event:/MusicaIntro
+  Guid:
+    Data1: 245697647
+    Data2: 1148296687
+    Data3: -386426471
+    Data4: 1572618695
+  Banks:
+  - {fileID: -8930633706335488023}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17689

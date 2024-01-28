@@ -17,7 +17,7 @@ public class FinaisGerenciador : MonoBehaviour
     public static int escolhaRuim = 0;
     public static int escolhaCaotica = 0;
 
-    private static NomeCenas penultimaCena = NomeCenas.Fase_5;
+    private static NomeCenas penultimaCena = NomeCenas.Fase_3;
     private static TipoCarta tipo;
 
     private void Awake()

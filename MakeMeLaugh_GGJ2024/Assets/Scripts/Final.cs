@@ -12,7 +12,12 @@ public class Final : MonoBehaviour
     [SerializeField] private TrocaNivel avancaNivel;
 
     private void Start()
-    {
+    {  
+        FMODAudioGerenciador.Instance.LimparEventos();
+        FMODAudioGerenciador.Instance.PararMusicas();
+        FMODAudioGerenciador.Instance.IniciarMusicaIntro(FMODEventsData.Instance.MusicaCreditos);
+        
+
         avancaNivel.gameObject.SetActive(false);
 
         Finais fim = FinaisGerenciador.VaiParaCenaFinal();

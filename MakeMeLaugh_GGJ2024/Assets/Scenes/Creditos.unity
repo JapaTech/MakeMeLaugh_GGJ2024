@@ -651,16 +651,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4348400367041389109, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
+      propertyPath: <AudioParaTocar>k__BackingField.Path
+      value: event:/SFXMenu/AbrirMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348400367041389109, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
+      propertyPath: <AudioParaTocar>k__BackingField.Guid.Data1
+      value: 364890815
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348400367041389109, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
+      propertyPath: <AudioParaTocar>k__BackingField.Guid.Data2
+      value: 1322218140
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348400367041389109, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
+      propertyPath: <AudioParaTocar>k__BackingField.Guid.Data3
+      value: -681788028
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348400367041389109, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
+      propertyPath: <AudioParaTocar>k__BackingField.Guid.Data4
+      value: 1605675721
+      objectReference: {fileID: 0}
     - target: {fileID: 6093683669016709751, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
       propertyPath: m_text
       value: Menu
       objectReference: {fileID: 0}
     - target: {fileID: 8641099130503458023, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8641099130503458023, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8641099130503458023, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8641099130503458023, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
@@ -668,7 +692,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 696515639}
     - target: {fileID: 8641099130503458023, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 696515640}
+    - target: {fileID: 8641099130503458023, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8641099130503458023, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8641099130503458023, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
@@ -676,11 +708,23 @@ PrefabInstance:
       value: VaiParaNovaCena
       objectReference: {fileID: 0}
     - target: {fileID: 8641099130503458023, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayAudio
+      objectReference: {fileID: 0}
+    - target: {fileID: 8641099130503458023, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: TrocaNivel, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8641099130503458023, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PlayAudioClick, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8641099130503458023, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8641099130503458023, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8984191808489378239, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
@@ -718,6 +762,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nomeCena: 0
+--- !u!114 &696515640 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4348400367041389109, guid: b94126abeeecca043898ecc66a1eb781, type: 3}
+  m_PrefabInstance: {fileID: 696515636}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696515638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c13593e60b06b0d40bdf3cb8df2c697d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &834741403
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,10 +1043,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 14228785}
-  - {fileID: 1444826654}
   - {fileID: 267195815}
-  - {fileID: 1672659947}
   - {fileID: 834741404}
+  - {fileID: 1444826654}
+  - {fileID: 1672659947}
   - {fileID: 1744922179}
   m_Father: {fileID: 876392210}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1076,6 +1131,7 @@ GameObject:
   - component: {fileID: 1276536473}
   - component: {fileID: 1276536472}
   - component: {fileID: 1276536475}
+  - component: {fileID: 1276536476}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1201,6 +1257,19 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!114 &1276536476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276536471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!1 &1408406869
 GameObject:
   m_ObjectHideFlags: 0
@@ -1281,7 +1350,7 @@ GameObject:
   - component: {fileID: 1444826656}
   - component: {fileID: 1444826655}
   m_Layer: 5
-  m_Name: Carol (1)
+  m_Name: Oli
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1326,7 +1395,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <b>Carol Fernandez</b> - Arte 2D, Pixel Artist, UI/UX Design, Game Design
+  m_text: "<b>Olivia Issler</b> - Game Design, Narrativa, Produ\xE7\xE3o"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67dc195e931ee094ba445078f4a4a4d3, type: 2}
   m_sharedMaterial: {fileID: 1090345170348864615, guid: 67dc195e931ee094ba445078f4a4a4d3, type: 2}
@@ -1415,7 +1484,7 @@ GameObject:
   - component: {fileID: 1672659949}
   - component: {fileID: 1672659948}
   m_Layer: 5
-  m_Name: Jonathan (1)
+  m_Name: Rebbeca
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1460,7 +1529,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<b>Jonathan Iha</b> - Programa\xE7\xE3o, UI/UX Design, Game Design"
+  m_text: <b>Rebecca Gallinaro</b> - sound design, trilha sonora
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67dc195e931ee094ba445078f4a4a4d3, type: 2}
   m_sharedMaterial: {fileID: 1090345170348864615, guid: 67dc195e931ee094ba445078f4a4a4d3, type: 2}
@@ -1594,7 +1663,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<b>J\xFAlia Ferreira</b> - Arte 2D, Pixel art, Game Design, Narrativa"
+  m_text: "<b>Washington Lu\xEDs</b>- Arte 2D e Pixel Artista"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67dc195e931ee094ba445078f4a4a4d3, type: 2}
   m_sharedMaterial: {fileID: 1090345170348864615, guid: 67dc195e931ee094ba445078f4a4a4d3, type: 2}

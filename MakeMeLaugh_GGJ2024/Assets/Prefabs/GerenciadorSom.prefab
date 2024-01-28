@@ -46,11 +46,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <BotaoClick>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1074859149
+      Data2: 1280167644
+      Data3: -1928702053
+      Data4: 478474928
+    Path: event:/SFXMenu/BotaoClick
+  <MusicaIntro>k__BackingField:
+    Guid:
+      Data1: 245697647
+      Data2: 1148296687
+      Data3: -386426471
+      Data4: 1572618695
+    Path: event:/MusicaIntro
+  <MusicaGameplay>k__BackingField:
+    Guid:
+      Data1: 1391491743
+      Data2: 1096974740
+      Data3: 683554708
+      Data4: -445676685
+    Path: event:/MusicaGameplay
+  <MusicaCreditos>k__BackingField:
+    Guid:
+      Data1: 1497426505
+      Data2: 1284453710
+      Data3: 721223334
+      Data4: -1417021996
+    Path: event:/MusicaCreditos
 --- !u!1 &7712704679256596692
 GameObject:
   m_ObjectHideFlags: 0

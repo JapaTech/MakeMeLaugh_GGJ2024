@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{fba15a5b-91e9-46f1-9468-0d54a96f3cba}">
+		<property name="assetPath">
+			<value>Voz/Campones1/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{88cfcb49-5c8c-41bf-8472-6b2e885f8452}</destination>
+		</relationship>
+	</object>
+</objects>

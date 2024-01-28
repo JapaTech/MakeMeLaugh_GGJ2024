@@ -673,7 +673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -874,6 +874,7 @@ GameObject:
   - component: {fileID: 7638214780261542181}
   - component: {fileID: 8950678978891161025}
   - component: {fileID: 4046916848234113954}
+  - component: {fileID: 5458108393602720825}
   m_Layer: 5
   m_Name: AvancaDialogo_btn
   m_TagString: Untagged
@@ -1007,6 +1008,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5458108393602720825}
+        m_TargetAssemblyTypeName: DelayButton, Assembly-CSharp
+        m_MethodName: ComecaDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &8950678978891161025
 Animator:
   serializedVersion: 5
@@ -1047,3 +1060,15 @@ MonoBehaviour:
       Data3: -1928702053
       Data4: 478474928
     Path: event:/SFXMenu/BotaoClick
+--- !u!114 &5458108393602720825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8855055576822633248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e45c64fd4b9fd4aacfecba8f25537f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

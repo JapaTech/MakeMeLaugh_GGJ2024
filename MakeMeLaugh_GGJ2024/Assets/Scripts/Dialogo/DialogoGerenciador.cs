@@ -51,7 +51,7 @@ public class DialogoGerenciador : MonoBehaviour
 
         nome.text = conversaAtual[mensagemAtiva].personagem.Nome;
         
-        /*
+        
         if(conversaAtual[mensagemAtiva].personagem.Nome == "Narrador")
         {
             iconeAtor.gameObject.SetActive(false);
@@ -62,7 +62,7 @@ public class DialogoGerenciador : MonoBehaviour
             iconeAtor.sprite = conversaAtual[mensagemAtiva].personagem.Retrato[(int)conversaAtual[mensagemAtiva].humor];
 
         }
-        */
+        
 
         digitaTexto = DOTween.To(() => mensagem, x => mensagem = x, conversaAtual[mensagemAtiva].messagem,
             conversaAtual[mensagemAtiva].messagem.Length / velocidadeDeDigitacao).OnUpdate(() =>

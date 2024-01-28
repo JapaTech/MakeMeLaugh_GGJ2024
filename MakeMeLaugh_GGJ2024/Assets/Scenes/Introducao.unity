@@ -365,6 +365,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2060139213805385175, guid: 040e0584c78d1ac479fda8bf91bcbb74, type: 3}
+      propertyPath: m_text
+      value: "Pr\xF3ximo"
+      objectReference: {fileID: 0}
     - target: {fileID: 6488572455327743765, guid: 040e0584c78d1ac479fda8bf91bcbb74, type: 3}
       propertyPath: m_Pivot.x
       value: 1
@@ -763,7 +767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3523183756503123404, guid: 43a554cad009dee40b2020081ac98d65, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -55.611206
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3523183756503123404, guid: 43a554cad009dee40b2020081ac98d65, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1265,7 +1269,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Para selecionar a carta, mova seu cursor para a carta e clique com o bot\xE3o
-    esquerdo do mouse nela. \r\n\r\nClique no bot\xE3o \u201Ccontinuar\u201D para
+    esquerdo do mouse nela. \r\n\r\nClique no bot\xE3o \u201CPR\xD3XIMO\u201D para
     ir \xE0 pr\xF3xima tela. \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

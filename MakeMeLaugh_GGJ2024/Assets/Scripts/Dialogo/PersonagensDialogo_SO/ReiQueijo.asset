@@ -15,6 +15,4 @@ MonoBehaviour:
   Id: 0
   Nome: Rei Queijo
   Retrato:
-  - {fileID: 21300000, guid: f03a3ada7021ea341a843f3cca21faaa, type: 3}
-  - {fileID: 21300000, guid: 686787f46426e4a428890daa2e470da3, type: 3}
-  - {fileID: 21300000, guid: 4caf2ea2b7d901741a6d08549e05789b, type: 3}
+  - {fileID: 21300000, guid: a194a2eddb25ecf498ed1c9380074287, type: 3}

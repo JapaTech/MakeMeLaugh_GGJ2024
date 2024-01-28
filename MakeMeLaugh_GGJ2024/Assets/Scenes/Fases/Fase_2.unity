@@ -612,10 +612,18 @@ PrefabInstance:
       propertyPath: nomeCena
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6293183428017846714, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
+      propertyPath: cartaDados
+      value: 
+      objectReference: {fileID: 11400000, guid: 19e0ced7718c27a4eaf17ae508b2b93b, type: 2}
+    - target: {fileID: 6629475502218861062, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
+      propertyPath: cartaDados
+      value: 
+      objectReference: {fileID: 11400000, guid: d3549cba9f224ae4c8e414dbcd623a9c, type: 2}
     - target: {fileID: 6988262579596243682, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
       propertyPath: cartaDados
       value: 
-      objectReference: {fileID: 11400000, guid: cc4f76175700cf64abdd5083f5e59b9c, type: 2}
+      objectReference: {fileID: 11400000, guid: e8640d70b9c36814dbc930bfe1d3e18d, type: 2}
     - target: {fileID: 8422610869658498996, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
       propertyPath: m_Sprite
       value: 

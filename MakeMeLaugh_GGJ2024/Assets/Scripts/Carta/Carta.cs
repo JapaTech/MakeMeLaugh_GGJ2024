@@ -35,7 +35,7 @@ namespace Cartas
 
             imagemCarta.sprite = cartaDados.DesenoImg;
             titulo.text = cartaDados.Titulo;
-            icone.sprite = cartaDados.IconeImg;
+            icone.gameObject.SetActive(false);
         }
 
         public void ClicouNaCarta()

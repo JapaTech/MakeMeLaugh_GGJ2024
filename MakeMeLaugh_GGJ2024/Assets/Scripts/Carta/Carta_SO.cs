@@ -6,7 +6,7 @@ namespace Cartas
     public class Carta_SO : ScriptableObject
     {
         public string Titulo;
-        public Sprite IconeImg;
+        //public Sprite IconeImg;
         public Sprite DesenoImg;
     }
 }

@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e71a7a6fa8ea49247904bf3e4ccd8f9f, type: 3}
-  m_Name: FimCaos
+  m_Script: {fileID: 11500000, guid: 73babbae7a863d64b83fab65ff57fc73, type: 3}
+  m_Name: Passaros
   m_EditorClassIdentifier: 
-  cenaDeDialogo: {fileID: 11400000, guid: a9041f941e2afd9469cc68f298db5de7, type: 2}
-  imagemFeedback: {fileID: 21300000, guid: 665b0ff7f8ff0db469f711777e5c5c6a, type: 3}
+  Id: 
+  Nome: "P\xE1ssaro"
+  Retrato: []

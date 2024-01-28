@@ -600,10 +600,18 @@ PrefabInstance:
       propertyPath: nomeCena
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 6293183428017846714, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
+      propertyPath: cartaDados
+      value: 
+      objectReference: {fileID: 11400000, guid: db51cb7b4819ed148baf86e451a7c255, type: 2}
+    - target: {fileID: 6629475502218861062, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
+      propertyPath: cartaDados
+      value: 
+      objectReference: {fileID: 11400000, guid: e0022b0d6faca09479dd2e79c955075c, type: 2}
     - target: {fileID: 6988262579596243682, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
       propertyPath: cartaDados
       value: 
-      objectReference: {fileID: 11400000, guid: cc4f76175700cf64abdd5083f5e59b9c, type: 2}
+      objectReference: {fileID: 11400000, guid: d91958ddeb202c147b841e8b5a8d38ab, type: 2}
     - target: {fileID: 8492554231861794600, guid: a7b5eb8d2140482448ed4f2ce4391c14, type: 3}
       propertyPath: m_Pivot.x
       value: 0

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: FimRuim
   m_EditorClassIdentifier: 
   cenaDeDialogo: {fileID: 11400000, guid: 1a6c131b3dba0de47bc2cbb975a42b13, type: 2}
-  imagemFeedback: {fileID: 21300000, guid: 8871bc39aff29cd439cb988af305f844, type: 3}
+  imagemFeedback: {fileID: 21300000, guid: 02312651c0d8ae94f9e2f1ff024b72b0, type: 3}

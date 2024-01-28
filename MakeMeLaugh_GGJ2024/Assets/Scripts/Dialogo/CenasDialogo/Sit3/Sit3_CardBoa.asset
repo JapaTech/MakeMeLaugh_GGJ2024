@@ -30,7 +30,7 @@ MonoBehaviour:
     personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
     humor: 0
   - messagem: "Pe\xE7o perd\xE3o, voc\xEA tem raz\xE3o."
-    personagem: {fileID: 0}
+    personagem: {fileID: 11400000, guid: e3a0e61dcdf102943860e68e1a24d162, type: 2}
     humor: 0
   - messagem: "E com uma simples piada, o bobo, transformou um dos p\xE1ssaros ladr\xF5es
       em um p\xE1ssaro do bem."

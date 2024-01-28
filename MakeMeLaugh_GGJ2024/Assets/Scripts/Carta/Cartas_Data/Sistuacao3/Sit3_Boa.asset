@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef5289004fdfe5d4c81a7b9188622150, type: 3}
   m_Name: Sit3_Boa
   m_EditorClassIdentifier: 
-  Titulo: Carta Boa
+  Titulo: De dar pena
   IconeImg: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   DesenoImg: {fileID: 21300000, guid: 00a084e99c061b04383edb8f6eed22d6, type: 3}

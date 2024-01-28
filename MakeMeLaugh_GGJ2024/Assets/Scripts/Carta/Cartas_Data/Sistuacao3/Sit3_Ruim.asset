@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef5289004fdfe5d4c81a7b9188622150, type: 3}
   m_Name: Sit3_Ruim
   m_EditorClassIdentifier: 
-  Titulo: Carta Ruim
+  Titulo: Rachar
   IconeImg: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   DesenoImg: {fileID: 21300000, guid: 5458d930acd338044bd7ff485e870402, type: 3}

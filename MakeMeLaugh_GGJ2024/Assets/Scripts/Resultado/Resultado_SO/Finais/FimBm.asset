@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: FimBm
   m_EditorClassIdentifier: 
   cenaDeDialogo: {fileID: 11400000, guid: 53d653f9cf3bd9843918b5371228da36, type: 2}
-  imagemFeedback: {fileID: 21300000, guid: f7c797d46b2f99b40aac62b9a479b39b, type: 3}
+  imagemFeedback: {fileID: 21300000, guid: ffe31ce43926f4a47ab10fce3154c9cc, type: 3}

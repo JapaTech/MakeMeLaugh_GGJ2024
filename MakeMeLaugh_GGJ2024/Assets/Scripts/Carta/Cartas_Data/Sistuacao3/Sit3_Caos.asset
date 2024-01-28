@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef5289004fdfe5d4c81a7b9188622150, type: 3}
   m_Name: Sit3_Caos
   m_EditorClassIdentifier: 
-  Titulo: Carta Caotica
+  Titulo: "L\xF3gica"
   IconeImg: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   DesenoImg: {fileID: 21300000, guid: 6bbd910d4f99ddc449fcff5dd6c6d4de, type: 3}

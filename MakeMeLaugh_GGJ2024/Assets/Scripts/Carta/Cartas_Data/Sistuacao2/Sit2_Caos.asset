@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef5289004fdfe5d4c81a7b9188622150, type: 3}
   m_Name: Sit2_Caos
   m_EditorClassIdentifier: 
-  Titulo: Carta Caotica
+  Titulo: Ego
   IconeImg: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   DesenoImg: {fileID: 21300000, guid: 0ed5fc9ac4e67b14293332ff51eb651b, type: 3}

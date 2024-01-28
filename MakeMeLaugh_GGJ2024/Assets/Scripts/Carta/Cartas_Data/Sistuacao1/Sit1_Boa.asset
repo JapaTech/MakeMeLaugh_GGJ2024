@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef5289004fdfe5d4c81a7b9188622150, type: 3}
   m_Name: Sit1_Boa
   m_EditorClassIdentifier: 
-  Titulo: Carta Boa
+  Titulo: "Cl\xE1ssico"
   IconeImg: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   DesenoImg: {fileID: 21300000, guid: c5da56ce9e4b6ee44864a29f7a4200da, type: 3}

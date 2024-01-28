@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{77239ee3-5509-4151-9c6a-e353f911597b}">
+		<property name="assetPath">
+			<value>Voz/Passaro1/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{88cfcb49-5c8c-41bf-8472-6b2e885f8452}</destination>
+		</relationship>
+	</object>
+</objects>

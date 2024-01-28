@@ -13,6 +13,20 @@ MonoBehaviour:
   m_Name: Sit1_CardBoa
   m_EditorClassIdentifier: 
   cena:
-  - messagem: Escolheu Carta Boa 1
+  - messagem: "Qual \xE9 a diferen\xE7a entre um territ\xF3rio e um bobo?"
+    personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0
+  - messagem: ..................
+    personagem: {fileID: 11400000, guid: af54b9473bb30634589607fdaef83646, type: 2}
+    humor: 0
+  - messagem: ..................
+    personagem: {fileID: 11400000, guid: 4d7c8634cb4e7724b87ac058855c7487, type: 2}
+    humor: 0
+  - messagem: "Um territ\xF3rio pode ser dividido, mas um bobo n\xE3o.\r"
+    personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0
+  - messagem: "Sua majestade, sabe o que? Acho que a piada foi t\xE3o ruim que voc\xEA
+      quis acabar com essa guerra toda para n\xE3o ter que ouvir mais piadas como
+      essa.\r"
     personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
     humor: 0

@@ -319,7 +319,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Continuar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67dc195e931ee094ba445078f4a4a4d3, type: 2}
   m_sharedMaterial: {fileID: 1090345170348864615, guid: 67dc195e931ee094ba445078f4a4a4d3, type: 2}
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -453,7 +453,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8594bc5a2132cc94d836761dc0cf7082, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 90a0756c45620a44db558986e0ca5511, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -873,6 +873,7 @@ GameObject:
   - component: {fileID: 1275524485824406345}
   - component: {fileID: 7638214780261542181}
   - component: {fileID: 8950678978891161025}
+  - component: {fileID: 4046916848234113954}
   m_Layer: 5
   m_Name: AvancaDialogo_btn
   m_TagString: Untagged
@@ -994,6 +995,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4046916848234113954}
+        m_TargetAssemblyTypeName: PlayAudioClick, Assembly-CSharp
+        m_MethodName: PlayAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &8950678978891161025
 Animator:
   serializedVersion: 5
@@ -1015,3 +1028,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4046916848234113954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8855055576822633248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c13593e60b06b0d40bdf3cb8df2c697d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <AudioParaTocar>k__BackingField:
+    Guid:
+      Data1: -1265874557
+      Data2: 1149705219
+      Data3: -1477339974
+      Data4: 304671707
+    Path: event:/SFXMenu/AvancarDialogo

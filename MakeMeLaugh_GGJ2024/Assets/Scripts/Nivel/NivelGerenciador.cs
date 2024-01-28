@@ -11,7 +11,8 @@ public enum NomeCenas
     Fase_4,
     Fase_5,
     Final,
-    Creditos
+    Creditos,
+    Introducao
 }
 
 public class NivelGerenciador : MonoBehaviour

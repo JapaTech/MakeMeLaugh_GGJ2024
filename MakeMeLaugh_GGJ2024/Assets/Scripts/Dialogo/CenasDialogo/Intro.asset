@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13903f9545b62a549aa2986386df6f6f, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  cena:
+  - messagem: "No cora\xE7\xE3o do continente dos fazendeiros, encontra-se o Reino
+      das Hortali\xE7as. Governado pelo Rei Pepino, um monarca benevolente, mas com
+      um apetite insaci\xE1vel, o reino vive em paz e harmonia... ou pelo menos era
+      o que se pensava!\r\n"
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "Ao seu lado, o Bobo da Corte, reina supremo no reino da com\xE9dia.
+      Seus gracejos e travessuras mant\xEAm o Rei Pepino entretido e o reino em constante
+      alvoro\xE7o.\r"
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "Mas o Bobo da Corte \xE9 mais do que apenas um comediante. Ele \xE9
+      um diplomata, um detetive, um pacificador e, acima de tudo, um her\xF3i improv\xE1vel.\r"
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "E o mais importante: O bobo precisa impressionar e  lembrar o rei
+      de suas melhores hist\xF3rias como bobo do reino, pois ao final do dia, o rei
+      conceder\xE1 ao bobo um t\xEDtulo que reflita suas aventuras.\r"
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "A escolha \xE9 sua! Ajude o Bobo da Corte a navegar pelas maluquices
+      do dia-a-dia real, tomando decis\xF5es hil\xE1rias que podem levar \xE0 paz,
+      ao caos ou a algo totalmente inesperado.\r"
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0

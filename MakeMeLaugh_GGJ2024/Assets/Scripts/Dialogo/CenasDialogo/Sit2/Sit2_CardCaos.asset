@@ -13,6 +13,35 @@ MonoBehaviour:
   m_Name: Sit2_CardCaos
   m_EditorClassIdentifier: 
   cena:
-  - messagem: Escolheu Carta Caotica 2
+  - messagem: "Voc\xEAs sabem quem \xE9 o rei da planta\xE7\xE3o?"
     personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0
+  - messagem: ...........
+    personagem: {fileID: 11400000, guid: 6249f64e49cee924eb13d30a6ac7be66, type: 2}
+    humor: 0
+  - messagem: ...........
+    personagem: {fileID: 11400000, guid: dd4ad0e0692cdd343acfd903d2bc5a70, type: 2}
+    humor: 0
+  - messagem: O REIpolho
+    personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0
+  - messagem: "Do nada, o repolho, ouvindo essa grande homenagem, come\xE7a a sentir
+      seu ego inflado. Ele se imagina como o verdadeiro rei do reino, com todos os
+      s\xFAditos a seus p\xE9s.\r"
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "\"Eu vou ser o rei deste reino!\". \"E ningu\xE9m vai me impedir.\"\r"
+    personagem: {fileID: 11400000, guid: fa3471477631a68428f71e354a0f568b, type: 2}
+    humor: 0
+  - messagem: "\"Eu vou ser o rei deste reino!\", ele pensa para si mesmo. \"E ningu\xE9m
+      vai me impedir.\"\r\n\r"
+    personagem: {fileID: 11400000, guid: fa3471477631a68428f71e354a0f568b, type: 2}
+    humor: 0
+  - messagem: "O bobo da corte fica horrorizado com o que aconteceu. Ele tenta impedir
+      o repolho, mas \xE9 ignorado.\r"
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "Ele finge que nada aconteceu e continua tratando o repolho como se
+      fosse o rei das hortali\xE7as humano.\r\r"
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
     humor: 0

@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8878735210713576967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXMenu/AbrirMenu
+  m_EditorClassIdentifier: 
+  Path: event:/SFXMenu/AbrirMenu
+  Guid:
+    Data1: 364890815
+    Data2: 1322218140
+    Data3: -681788028
+    Data4: 1605675721
+  Banks:
+  - {fileID: 807345240076708720}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-8364156614233463061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,11 +42,92 @@ MonoBehaviour:
   Path: ../FmodAudio/MakeMeLaugh_GGJ2024/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638419918124999774
+  lastModified: 638420031684518379
   FileSizes:
   - Name: Desktop
-    Value: 804
+    Value: 1132
   Exists: 1
+--- !u!114 &-7491933322244889998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXMenu/AvancarDialogo
+  m_EditorClassIdentifier: 
+  Path: event:/SFXMenu/AvancarDialogo
+  Guid:
+    Data1: -1265874557
+    Data2: 1149705219
+    Data3: -1477339974
+    Data4: 304671707
+  Banks:
+  - {fileID: 807345240076708720}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7398546927496574647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/New Event
+  m_EditorClassIdentifier: 
+  Path: event:/New Event
+  Guid:
+    Data1: 1200914659
+    Data2: 1312439539
+    Data3: -398084202
+    Data4: -887023593
+  Banks:
+  - {fileID: 807345240076708720}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-6709290487508383795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXMenu/BotaoClick
+  m_EditorClassIdentifier: 
+  Path: event:/SFXMenu/BotaoClick
+  Guid:
+    Data1: -1074859149
+    Data2: 1280167644
+    Data3: -1928702053
+    Data4: 478474928
+  Banks:
+  - {fileID: 807345240076708720}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37,13 +145,19 @@ MonoBehaviour:
   - {fileID: 4408447484526523385}
   - {fileID: 807345240076708720}
   EditorEvents:
-  - {fileID: 3284545787228042425}
+  - {fileID: -7398546927496574647}
+  - {fileID: -6709290487508383795}
+  - {fileID: -7491933322244889998}
+  - {fileID: -8878735210713576967}
+  - {fileID: 7042530135987880000}
+  - {fileID: 3508563594358354838}
+  - {fileID: 3228672023767922428}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4408447484526523385}
   StringsBanks:
   - {fileID: -8364156614233463061}
-  cacheTime: 638419918129606583
+  cacheTime: 638420031692759088
   cacheVersion: 131616
 --- !u!114 &807345240076708720
 MonoBehaviour:
@@ -60,12 +174,12 @@ MonoBehaviour:
   Path: ../FmodAudio/MakeMeLaugh_GGJ2024/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638419918129606583
+  lastModified: 638420031692759088
   FileSizes:
   - Name: Desktop
-    Value: 14016
+    Value: 420512
   Exists: 1
---- !u!114 &3284545787228042425
+--- !u!114 &3228672023767922428
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -75,14 +189,41 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MenuClick
+  m_Name: event:/SFXCartas/SelecionarCartas
   m_EditorClassIdentifier: 
-  Path: event:/MenuClick
+  Path: event:/SFXCartas/SelecionarCartas
   Guid:
-    Data1: -1074859149
-    Data2: 1280167644
-    Data3: -1928702053
-    Data4: 478474928
+    Data1: 356447404
+    Data2: 1291629233
+    Data3: -269676926
+    Data4: -1028039504
+  Banks:
+  - {fileID: 807345240076708720}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3508563594358354838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXMenu/AvancarCena
+  m_EditorClassIdentifier: 
+  Path: event:/SFXMenu/AvancarCena
+  Guid:
+    Data1: -872909483
+    Data2: 1210889561
+    Data3: 399235263
+    Data4: 1802461323
   Banks:
   - {fileID: 807345240076708720}
   IsStream: 0
@@ -107,8 +248,35 @@ MonoBehaviour:
   Path: ../FmodAudio/MakeMeLaugh_GGJ2024/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638419918124954630
+  lastModified: 638420031684459803
   FileSizes:
   - Name: Desktop
     Value: 1036
   Exists: 1
+--- !u!114 &7042530135987880000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXMenu/CancelarRetorno
+  m_EditorClassIdentifier: 
+  Path: event:/SFXMenu/CancelarRetorno
+  Guid:
+    Data1: 274344142
+    Data2: 1170934529
+    Data3: 1148187808
+    Data4: 1466633481
+  Banks:
+  - {fileID: 807345240076708720}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0

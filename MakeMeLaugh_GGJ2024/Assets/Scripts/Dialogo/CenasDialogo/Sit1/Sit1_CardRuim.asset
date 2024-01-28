@@ -13,6 +13,31 @@ MonoBehaviour:
   m_Name: Sit1_CardRuim
   m_EditorClassIdentifier: 
   cena:
-  - messagem: Escolheu Carta Ruim 1
+  - messagem: "Majestade, voc\xEA sabe como deixar um corno curioso?"
     personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0
+  - messagem: "N\xE3o.\r"
+    personagem: {fileID: 11400000, guid: af54b9473bb30634589607fdaef83646, type: 2}
+    humor: 0
+  - messagem: "Deixando um chifre mais alto que o outro.\r"
+    personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0
+  - messagem: "O rei das hortali\xE7as fica furioso com a piada do bobo. \r\r"
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "O rei das hortali\xE7as percebe que a piada \xE9 sobre ele fica furioso
+      com o bobo. \r\r"
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "O rei das hortali\xE7as percebe que a piada \xE9 sobre ele.\r\r"
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "Sua esposa est\xE1 realmente o traindo com o rei do queijo.\r\r\r"
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "O rei das hortali\xE7as fica t\xE3o furioso que vai embora.\r\r\r"
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
+    humor: 0
+  - messagem: "Para evitar uma guerra, o rei do queijo concede o territ\xF3rio.\r\r\r\r"
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
     humor: 0

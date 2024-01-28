@@ -298,6 +298,7 @@ GameObject:
   - component: {fileID: 3102321714555057483}
   - component: {fileID: 1637195170538793294}
   - component: {fileID: 4949445005074355201}
+  - component: {fileID: 2705402559712043126}
   m_Layer: 5
   m_Name: Carta
   m_TagString: Untagged
@@ -421,6 +422,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2705402559712043126}
+        m_TargetAssemblyTypeName: PlayAudioClick, Assembly-CSharp
+        m_MethodName: PlayAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1637195170538793294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -458,3 +471,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2705402559712043126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8056262035075339963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c13593e60b06b0d40bdf3cb8df2c697d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <AudioParaTocar>k__BackingField:
+    Guid:
+      Data1: 356447404
+      Data2: 1291629233
+      Data3: -269676926
+      Data4: -1028039504
+    Path: event:/SFXCartas/SelecionarCartas

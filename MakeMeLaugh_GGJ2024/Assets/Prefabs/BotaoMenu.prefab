@@ -147,6 +147,7 @@ GameObject:
   - component: {fileID: 5258831346805361981}
   - component: {fileID: 8641099130503458023}
   - component: {fileID: 9118246544855843365}
+  - component: {fileID: 4348400367041389109}
   m_Layer: 5
   m_Name: BotaoMenu
   m_TagString: Untagged
@@ -277,3 +278,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4348400367041389109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8984191808489378239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c13593e60b06b0d40bdf3cb8df2c697d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <AudioParaTocar>k__BackingField:
+    Guid:
+      Data1: -1074859149
+      Data2: 1280167644
+      Data3: -1928702053
+      Data4: 478474928
+    Path: event:/MenuClick

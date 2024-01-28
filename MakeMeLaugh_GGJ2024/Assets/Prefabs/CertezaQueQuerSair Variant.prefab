@@ -93,24 +93,80 @@ PrefabInstance:
       value: -29
       objectReference: {fileID: 0}
     - target: {fileID: 2744382482254312189, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2744382482254312189, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2744382482254312189, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 6510287537035481932}
+    - target: {fileID: 2744382482254312189, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2744382482254312189, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: DesativaPainelSair
       objectReference: {fileID: 0}
     - target: {fileID: 2744382482254312189, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayAudio
+      objectReference: {fileID: 0}
+    - target: {fileID: 2744382482254312189, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: MenuInGame, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2744382482254312189, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PlayAudioClick, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2744382482254312189, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582872236363698591, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582872236363698591, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4582872236363698591, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 3930598261278134829}
     - target: {fileID: 4582872236363698591, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 4888256429363884078}
+    - target: {fileID: 4582872236363698591, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582872236363698591, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: VaiParaNovaCena
       objectReference: {fileID: 0}
     - target: {fileID: 4582872236363698591, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayAudio
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582872236363698591, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: TrocaNivel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582872236363698591, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PlayAudioClick, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582872236363698591, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4977633753945201037, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
       propertyPath: m_Color.a
@@ -131,6 +187,46 @@ PrefabInstance:
     - target: {fileID: 5336178646502107054, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
       propertyPath: m_text
       value: "Voc\xEA tem certeza que quer voltar ao menu"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7900940662749854767, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: <AudioParaTocar>k__BackingField.Path
+      value: event:/SFXMenu/CancelarRetorno
+      objectReference: {fileID: 0}
+    - target: {fileID: 7900940662749854767, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: <AudioParaTocar>k__BackingField.Guid.Data1
+      value: 274344142
+      objectReference: {fileID: 0}
+    - target: {fileID: 7900940662749854767, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: <AudioParaTocar>k__BackingField.Guid.Data2
+      value: 1170934529
+      objectReference: {fileID: 0}
+    - target: {fileID: 7900940662749854767, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: <AudioParaTocar>k__BackingField.Guid.Data3
+      value: 1148187808
+      objectReference: {fileID: 0}
+    - target: {fileID: 7900940662749854767, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: <AudioParaTocar>k__BackingField.Guid.Data4
+      value: 1466633481
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370613893856436045, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: <AudioParaTocar>k__BackingField.Path
+      value: event:/SFXMenu/CancelarRetorno
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370613893856436045, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: <AudioParaTocar>k__BackingField.Guid.Data1
+      value: 274344142
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370613893856436045, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: <AudioParaTocar>k__BackingField.Guid.Data2
+      value: 1170934529
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370613893856436045, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: <AudioParaTocar>k__BackingField.Guid.Data3
+      value: 1148187808
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370613893856436045, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+      propertyPath: <AudioParaTocar>k__BackingField.Guid.Data4
+      value: 1466633481
       objectReference: {fileID: 0}
     - target: {fileID: 8373536565213379490, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -166,3 +262,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nomeCena: 0
+--- !u!114 &4888256429363884078 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8370613893856436045, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+  m_PrefabInstance: {fileID: 4034371694591471459}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225266378445489060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c13593e60b06b0d40bdf3cb8df2c697d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6510287537035481932 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7900940662749854767, guid: be23d1e0d9585e540958ab28dfccf3a5, type: 3}
+  m_PrefabInstance: {fileID: 4034371694591471459}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c13593e60b06b0d40bdf3cb8df2c697d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

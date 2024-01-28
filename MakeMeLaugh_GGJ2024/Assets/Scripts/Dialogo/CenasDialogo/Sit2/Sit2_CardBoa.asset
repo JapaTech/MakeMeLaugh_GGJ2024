@@ -13,6 +13,14 @@ MonoBehaviour:
   m_Name: Sit2_CardBoa
   m_EditorClassIdentifier: 
   cena:
-  - messagem: Escolheu Carta Boa 2
+  - messagem: "Voc\xEAs sabem porque o repolho n\xE3o \xE9 bom para guardar segredos?"
     personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0
+  - messagem: Por que ele sempre acaba se desembrulhando.
+    personagem: {fileID: 11400000, guid: aaebb4af72d2abd4f8cd93e87f004a6e, type: 2}
+    humor: 0
+  - messagem: "Os camponeses acharam a piada t\xE3o sem gra\xE7a que para poupar
+      o bobo de qualquer constrangimento, eles se desculparam e concordaram em esquecer
+      a discuss\xE3o e seguir em frente."
+    personagem: {fileID: 11400000, guid: e5bd059cef20e014fa8324c9320ecb03, type: 2}
     humor: 0
